@@ -1,0 +1,24 @@
+{
+  "name": "@landwind/vueable-eslint-config",
+  "version": "1.0.0",
+  "description": "eslint config for vueable",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "tslint",
+    "config",
+    "vueable"
+  ],
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.33.1",
+    "@typescript-eslint/parser": "^5.33.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.3.0"
+  },
+  "author": "landwind",
+  "license": "MIT"
+}

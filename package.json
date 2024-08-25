@@ -1,0 +1,41 @@
+{
+  "name": "@landwind/vueable",
+  "version": "0.0.1",
+  "description": "vue3 element-plus ts vite 封装组件库",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --write .",
+    "lint": "eslint --ext .ts packages/*/**.ts",
+    "lint:fix": "eslint --ext .ts packages/*/**.ts --fix"
+  },
+  "lint-staged": {
+    "*.{js,jsx,vue,ts,tsx}": [
+      "eslint --ext .ts packages/*/**.ts",  
+      "eslint --ext .ts packages/*/**.ts --fix"  
+    ]
+  },
+  "keywords": [
+    "element-plus",
+    "vue",
+    "vite",
+    "vitepress",
+    "vueable",
+    "landwind",
+    "components",
+    "custom-components"
+  ],
+  "author": "landwind",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.2.0",
+    "@typescript-eslint/parser": "^8.2.0",
+    "eslint": "^9.9.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "husky": "^9.1.5",
+    "lint-staged": "^15.2.9",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4"
+  }
+}
